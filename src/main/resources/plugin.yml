@@ -1,0 +1,21 @@
+name: SubjectB-3
+version: '${version}'
+main: com.github.meru.subjectb3.SubjectB3
+api-version: 1.18
+website: https://github.com/AzisabaDojo/subjectB-3
+
+permissions:
+  subjectb3.command.ban:
+    description: /ban permissions
+  subjectb3.command.kick:
+    description: /kick permissions
+  subjectb3.command.uuid:
+    description: /uuid permissions
+
+commands:
+  ban:
+    usage: /ban <player>
+  kick:
+    usage: /kick <player>
+  uuid:
+    usage: /uuid <player>
